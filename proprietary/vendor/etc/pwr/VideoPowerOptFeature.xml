@@ -7,7 +7,7 @@
       Each feature has an xml file to define the feature components
 
   ===========================================================================
-  Copyright (c) 2020-2022 Qualcomm Technologies, Inc.
+  Copyright (c) 2020-2023 Qualcomm Technologies, Inc.
   All Rights Reserved.
   Confidential and Proprietary - Qualcomm Technologies, Inc.
   ===========================================================================
@@ -18,7 +18,7 @@
    <Libname>libvideooptfeature.so</Libname>
    <Configs>
         <VIDEO_OPT>1</VIDEO_OPT>
-        <BROWSER_OPT>1</BROWSER_OPT>
+        <BROWSER_OPT>0</BROWSER_OPT>
         <MAX_CONTENT_FPS>30</MAX_CONTENT_FPS>
         <MAX_HW_CONTENT_FPS>120</MAX_HW_CONTENT_FPS>
         <MAX_PANEL_FPS>120</MAX_PANEL_FPS>
@@ -71,7 +71,6 @@
             <!-- MPCTLV3_SCHEDUTIL_RTG_BOOST_FREQ_CLUSTER_LITTLE -->
             <!-- MPCTLV3_SCHEDUTIL_RTG_BOOST_FREQ_CLUSTER_BIG -->
             <PROFILE1>0x40CA4000, 0x8, 0x4143C100, 844, 0x4143C000, 1113, 0x41450100, 0, 0x41454100, 0x4, 0x40C68100, -20, 0x40C68000, -10, 0x4144C100, 600000, 0x4144C000, 600000</PROFILE1>
-            <BROWSER_OPT_RESOURCE>0x43C04000</BROWSER_OPT_RESOURCE>
         </Profile>
     </Profiles>
     <IgnoredApps>
