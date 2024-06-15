@@ -1,5 +1,4 @@
 libqti-perfd-client.so
-libencoderjpeg_jni.so
 libadsprpc.so
 libcdsprpc.so
 libsdsprpc.so

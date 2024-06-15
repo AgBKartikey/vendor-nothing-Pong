@@ -24,13 +24,6 @@ cc_prebuilt_library_shared {
 	soc_specific: true,
 }
 
-dex_import {
-	name: "androidx.camera.extensions.impl.advanced",
-	owner: "nothing",
-	jars: ["proprietary/system_ext/framework/androidx.camera.extensions.impl.advanced.jar"],
-	system_ext_specific: true,
-}
-
 cc_prebuilt_library_shared {
 	name: "libar-gsl",
 	owner: "nothing",
@@ -380,6 +373,13 @@ dex_import {
 	owner: "nothing",
 	jars: ["proprietary/product/framework/uimservicelibrary.jar"],
 	product_specific: true,
+}
+
+dex_import {
+	name: "androidx.camera.extensions.impl.advanced",
+	owner: "nothing",
+	jars: ["proprietary/system_ext/framework/androidx.camera.extensions.impl.advanced.jar"],
+	system_ext_specific: true,
 }
 
 dex_import {
